@@ -31,7 +31,9 @@ Denna lista radar upp dom olika bokföringskontona. Och dom olika serierna står
 | 5460  | Förbrukningsmaterial                                   |                                                                                                                                              |
 | 6570  | Bankkostnader                                          | Utgifterna för bankavgifter klassificeras som övriga externa kostnader och ska därför bokföras som bankkostnader i kontogrupp 65, under 6570 |
 | 6590  | Övriga externa tjänster                                |                                                                                                                                              |
+| 8012  | Utdelning på andelar i dotterföretag                   | Skattefri utdelning från dotterföretag                                                                                            |
 | 8030  | Resultatandelar från KB / handelsbolag (dotterföretag) | Konto för intäkter och kostnader av särskilt slag                                                                                            |
+| 8314  | ???                |                                                            |
 | 8423  | Räntekostnader för skatter och avgifter                | Har du fått en kostnadsränta på skattekontot debiteras den vanligtvis i konto 8423                                                           |
 | 8910  | Skatt som belastar årets resultat                      |                                                                                                                                              |
 | 8999  | Årets resultat                                         |                                                                                                                                              |
