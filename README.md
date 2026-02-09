@@ -2,38 +2,120 @@
 
 Mina egna anteckningar kring bokföring. Är främst för eget bruk, men om andra finner dom användbara så är det en bonus. Uppdateras kontinuerligt...
 
-## Bokföringskonton
+För att se en lista över samtliga konton, se [BAS](./BAS.md)
 
-Denna lista radar upp dom olika bokföringskontona. Och dom olika serierna står för olika saker:
+## 🔢 Kontoklasser med vanliga konton och förklaring
 
-- 1XXX - Tillgångskonton
-- 2XXX - Skuldkonton
-- 3XXX - Inkomstkonton
-- 7XXX-8XXX - Utgiftskonton
+## 0 – Anläggningstillgångar
+- **1210** – Maskiner/inventarier: Långfristiga inventarier som används i verksamheten  
+- **1220** – Byggnader: Företagets byggnader  
+- **1230** – Ack. avskrivningar byggnader: Ackumulerade avskrivningar på byggnader  
+- **1240** – Ack. avskrivningar maskiner/inventarier: Ackumulerade avskrivningar på maskiner/inventarier  
+- **1330** – Andelar i koncernföretag / långfristiga värdepapper: Långsiktiga investeringar i aktier  
 
-| Konto | Benämning                                              | Beskrivning                                                                                                                                  |
-| ----- | ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1330  | Andel i intresse, gemen styrd och ägarintr ftg         | Andelar i intressebolag. De utgör finansiella tillgångar och finns på tillgångssidan i balansräkningen                                       |
-| 1630  | Avräkning för skatter och avgifter                     | Skattekonto                                                                                                                                  |
-| 1650  | Momsfordran                                            | Används när du har en moms­fordran i bokslutet (t ex vid exportförsäljning)                                                                  |
-| 1930  | Bankkonto som ett motkonto                             | Företagets bank-, check- eller affärskonto                                                                                                   |
-| 2091  | Balanserad vinst eller förlust                         |                                                                                                                                              |
-| 2099  | Årets resultat                                         |                                                                                                                                              |
-| 2510  | Skatteskulder                                          | Den slutliga skatten. Ska enbart innehålla räkenskapsårets resultat                                                                          |
-| 2512  | Beräknad inkomstskatt                                  |                                                                                                                                              |
-| 2518  | Betald F-skatt                                         | Används med fördel för att hålla isär preliminärskatten från andra skatter i bokföringen                                                     |
-| 2611  | Debiterad utgående moms                                | När ditt företag säljer och fakturerar en kund tar du ut moms från köparen som kallas utgående moms                                          |
-| 2641  | Debiterad ingående moms                                | Varje gång du köper något till företaget betalar du ingående moms                                                                            |
-| 2650  | Redovisningskonto för moms                             | Utgående moms på företagets försäljning dras mot ingående moms på inköp                                                                      |
-| 2893  | Skulder till närstående personer, kortfristig del      | När årsstämman har klubbat igenom utdelning uppstår en skuld till aktieägarna. Pengar flyttas från "balanserat reultat" (där vinsten ligger) till ett skuldkonto                                                                                            |
-| 3041  | Försäljning tjänster 25% moms Sv                       | Försäljning av tjänster inom Sverige med 25% moms                                                                                            |
-| 3051  | Försäljning varor 25% moms Sv                          | Försäljning av varor inom Sverige med 25% moms                                                                                               |
-| 5460  | Förbrukningsmaterial                                   |                                                                                                                                              |
-| 6570  | Bankkostnader                                          | Utgifterna för bankavgifter klassificeras som övriga externa kostnader och ska därför bokföras som bankkostnader i kontogrupp 65, under 6570 |
-| 6590  | Övriga externa tjänster                                |                                                                                                                                              |
-| 8012  | Utdelning på andelar i dotterföretag                   | Skattefri utdelning från dotterföretag                                                                                            |
-| 8030  | Resultatandelar från KB / handelsbolag (dotterföretag) | Konto för intäkter och kostnader av särskilt slag                                                                                            |
-| 8314  | ???                |                                                            |
-| 8423  | Räntekostnader för skatter och avgifter                | Har du fått en kostnadsränta på skattekontot debiteras den vanligtvis i konto 8423                                                           |
-| 8910  | Skatt som belastar årets resultat                      |                                                                                                                                              |
-| 8999  | Årets resultat                                         |                                                                                                                                              |
+---
+
+## 1 – Omsättningstillgångar
+- **1510** – Kundfordringar: Fakturor till kunder  
+- **1460** – Varulager: Varor på lager för försäljning  
+- **1490** – Övriga kortfristiga fordringar: Kortfristiga fordringar utöver kunder  
+- **1630** – Skattekonto: Skattekontot hos Skatteverket  
+- **1650** – Momsfordran: Ingående moms som kan återfås  
+- **1930** – Bankkonto: Huvudbankkonto för in- och utbetalningar  
+- **1940** – Övriga bankkonton: Ytterligare bankkonton eller sparkonton  
+
+---
+
+## 2 – Eget kapital & skulder
+
+### Eget kapital
+- **2081** – Aktiekapital: Ägarnas insatta kapital  
+- **2091** – Balanserad vinst/förlust: Tidigare års resultat  
+- **2099** – Årets resultat: Vinst/förlust för året  
+
+### Skulder
+- **2440** – Leverantörsskulder: Fakturor från leverantörer  
+- **2510** – Skatteskulder: Totala skatter som ska betalas  
+- **2512** – Beräknad inkomstskatt: Preliminär skatt på årets resultat  
+- **2514** – Beräknad bolagsskatt: Bokslutskonto för skatt  
+- **2518** – Betald preliminärskatt: Skatt som redan betalats  
+- **2350** – Skulder till anställda: Semesterersättning och andra skulder  
+- **2351** – Upplupna kostnader personal: Lön och förmåner som inte betalats  
+- **2893** – Skulder till närstående personer: T.ex. lån till ägare  
+
+---
+
+## 3 – Intäkter
+- **3010** – Försäljning varor/tjänster: Generella intäkter  
+- **3041** – Försäljning tjänster, 25 % moms: Tjänster med hög moms  
+- **3045** – Försäljning tjänster, 12 % moms: Tjänster med lägre moms  
+- **3051** – Försäljning varor, 25 % moms: Varor med hög moms  
+- **3055** – Försäljning varor, 12 % moms: Varor med lägre moms  
+
+---
+
+## 4 – Varukostnader
+- **4010** – Varuinköp: Kostnad för varor som säljs  
+- **4020** – Varuinköp, 12 % moms: Varor med lägre moms  
+- **4030** – Varuinköp, 6 % moms: Varor med låg moms  
+- **4090** – Övriga varukostnader: Frakt och övriga varukostnader  
+
+---
+
+## 5 – Externa kostnader (lokal & drift)
+- **5010** – Lokalhyra: Hyra för kontor eller butik  
+- **5020** – El & värme: Driftskostnader för fastighet  
+- **5040** – Fastighetsskatt: Kommunal fastighetsskatt  
+- **5060** – Städning: Extern städning av lokaler  
+- **5070** – Reparation/underhåll lokaler: Reparationer på lokaler  
+- **5080** – Försäkringar fastighet/egendom: Försäkringar på byggnader och inventarier  
+
+---
+
+## 6 – Externa kostnader (admin & tjänster)
+- **5410** – Förbrukningsinventarier: Små inventarier med kort livslängd  
+- **5420** – Datorer/kontorsmaskiner: Mindre IT-inköp  
+- **5460** – Förbrukningsmaterial: Kontorsmaterial och liknande  
+- **5800** – Resekostnader: Tjänsteresor med transport  
+- **5810** – Transportkostnader: Frakt och leveranser  
+- **5910** – Annonsering/reklam: Marknadsföring  
+- **6212** – Mobiltelefon: Telefonkostnader för företaget  
+- **6310** – Företagsförsäkringar: Försäkringar för verksamheten  
+- **6540** – IT-tjänster/programvaror: Molntjänster och licenser  
+- **6570** – Bankkostnader: Avgifter från bank/kortföretag  
+- **6990** – Övriga externa kostnader: Kostnader som inte passar andra konton  
+- **6991** – Övriga ej specificerade kostnader: Diverse småkostnader  
+
+---
+
+## 7 – Personalkostnader
+- **7010** – Löner till tjänstemän: Löner för anställda  
+- **7210** – Löner till ägare: Löner för ägare eller delägare  
+- **7510** – Arbetsgivaravgifter: Sociala avgifter  
+- **7515** – Pensioner: Tjänstepensioner  
+- **7520** – Förmåner: Friskvård, lunchförmåner etc.  
+
+---
+
+## 8 – Finansiella poster & bokslut
+- **8012** – Vinst/förlust vid försäljning av andelar: Resultat från aktieförsäljning  
+- **8030** – Räntekostnader: Betald ränta på lån  
+- **8314** – Skattefria ränteintäkter: T.ex. ränta från Skatteverket  
+- **8423** – Valutakursförluster: Förlust vid valutatransaktioner  
+- **8910** – Skatt på årets resultat: Beräknad skatt på årets vinst  
+- **8999** – Årets resultat (bokslutskonto): Nollar alla resultatkonton vid bokslut  
+
+---
+
+## 9 – Interna konton
+- **9000–9999** – Interna projekt/kostnadsställen: För uppföljning inom företaget  
+
+---
+
+## 🧠 Snabbregler
+- **0–2 = Balansräkning**  
+- **3–8 = Resultaträkning**  
+- **9 = Interna konton**  
+- Alla verifikationer ska **balansera**  
+- **8910 + 251x används i bokslutet**  
+- **8999 ska vara 0 efter bokslut**
