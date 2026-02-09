@@ -26,9 +26,9 @@ För att se en lista över samtliga konton, se [BAS](./BAS.md)
 ---
 
 ### 1 – Omsättningstillgångar
-- **1510** – Kundfordringar: Fakturor till kunder  
 - **1460** – Varulager: Varor på lager för försäljning  
 - **1490** – Övriga kortfristiga fordringar: Kortfristiga fordringar utöver kunder  
+- **1510** – Kundfordringar: Fakturor till kunder  
 - **1630** – Skattekonto: Skattekontot hos Skatteverket  
 - **1650** – Momsfordran: Ingående moms som kan återfås  
 - **1930** – Bankkonto: Huvudbankkonto för in- och utbetalningar  
@@ -44,13 +44,13 @@ För att se en lista över samtliga konton, se [BAS](./BAS.md)
 - **2099** – Årets resultat: Vinst/förlust för året  
 
 #### Skulder
+- **2350** – Skulder till anställda: Semesterersättning och andra skulder  
+- **2351** – Upplupna kostnader personal: Lön och förmåner som inte betalats  
 - **2440** – Leverantörsskulder: Fakturor från leverantörer  
 - **2510** – Skatteskulder: Totala skatter som ska betalas  
 - **2512** – Beräknad inkomstskatt: Preliminär skatt på årets resultat  
 - **2514** – Beräknad bolagsskatt: Bokslutskonto för skatt  
 - **2518** – Betald preliminärskatt: Skatt som redan betalats  
-- **2350** – Skulder till anställda: Semesterersättning och andra skulder  
-- **2351** – Upplupna kostnader personal: Lön och förmåner som inte betalats  
 - **2893** – Skulder till närstående personer: T.ex. lån till ägare  
 
 ---
