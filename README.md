@@ -6,7 +6,17 @@ För att se en lista över samtliga konton, se [BAS](./BAS.md)
 
 ## 🔢 Kontoklasser med vanliga konton och förklaring
 
-## 0 – Anläggningstillgångar
+### 🧠 Snabbregler
+- **0–2 = Balansräkning**  
+- **3–8 = Resultaträkning**  
+- **9 = Interna konton**  
+- Alla verifikationer ska **balansera**  
+- **8910 + 251x används i bokslutet**  
+- **8999 ska vara 0 efter bokslut**
+
+---
+
+### 0 – Anläggningstillgångar
 - **1210** – Maskiner/inventarier: Långfristiga inventarier som används i verksamheten  
 - **1220** – Byggnader: Företagets byggnader  
 - **1230** – Ack. avskrivningar byggnader: Ackumulerade avskrivningar på byggnader  
@@ -15,7 +25,7 @@ För att se en lista över samtliga konton, se [BAS](./BAS.md)
 
 ---
 
-## 1 – Omsättningstillgångar
+### 1 – Omsättningstillgångar
 - **1510** – Kundfordringar: Fakturor till kunder  
 - **1460** – Varulager: Varor på lager för försäljning  
 - **1490** – Övriga kortfristiga fordringar: Kortfristiga fordringar utöver kunder  
@@ -26,14 +36,14 @@ För att se en lista över samtliga konton, se [BAS](./BAS.md)
 
 ---
 
-## 2 – Eget kapital & skulder
+### 2 – Eget kapital & skulder
 
-### Eget kapital
+#### Eget kapital
 - **2081** – Aktiekapital: Ägarnas insatta kapital  
 - **2091** – Balanserad vinst/förlust: Tidigare års resultat  
 - **2099** – Årets resultat: Vinst/förlust för året  
 
-### Skulder
+#### Skulder
 - **2440** – Leverantörsskulder: Fakturor från leverantörer  
 - **2510** – Skatteskulder: Totala skatter som ska betalas  
 - **2512** – Beräknad inkomstskatt: Preliminär skatt på årets resultat  
@@ -45,7 +55,7 @@ För att se en lista över samtliga konton, se [BAS](./BAS.md)
 
 ---
 
-## 3 – Intäkter
+### 3 – Intäkter
 - **3010** – Försäljning varor/tjänster: Generella intäkter  
 - **3041** – Försäljning tjänster, 25 % moms: Tjänster med hög moms  
 - **3045** – Försäljning tjänster, 12 % moms: Tjänster med lägre moms  
@@ -54,7 +64,7 @@ För att se en lista över samtliga konton, se [BAS](./BAS.md)
 
 ---
 
-## 4 – Varukostnader
+### 4 – Varukostnader
 - **4010** – Varuinköp: Kostnad för varor som säljs  
 - **4020** – Varuinköp, 12 % moms: Varor med lägre moms  
 - **4030** – Varuinköp, 6 % moms: Varor med låg moms  
@@ -62,7 +72,7 @@ För att se en lista över samtliga konton, se [BAS](./BAS.md)
 
 ---
 
-## 5 – Externa kostnader (lokal & drift)
+### 5 – Externa kostnader (lokal & drift)
 - **5010** – Lokalhyra: Hyra för kontor eller butik  
 - **5020** – El & värme: Driftskostnader för fastighet  
 - **5040** – Fastighetsskatt: Kommunal fastighetsskatt  
@@ -72,7 +82,7 @@ För att se en lista över samtliga konton, se [BAS](./BAS.md)
 
 ---
 
-## 6 – Externa kostnader (admin & tjänster)
+### 6 – Externa kostnader (admin & tjänster)
 - **5410** – Förbrukningsinventarier: Små inventarier med kort livslängd  
 - **5420** – Datorer/kontorsmaskiner: Mindre IT-inköp  
 - **5460** – Förbrukningsmaterial: Kontorsmaterial och liknande  
@@ -88,7 +98,7 @@ För att se en lista över samtliga konton, se [BAS](./BAS.md)
 
 ---
 
-## 7 – Personalkostnader
+### 7 – Personalkostnader
 - **7010** – Löner till tjänstemän: Löner för anställda  
 - **7210** – Löner till ägare: Löner för ägare eller delägare  
 - **7510** – Arbetsgivaravgifter: Sociala avgifter  
@@ -97,7 +107,7 @@ För att se en lista över samtliga konton, se [BAS](./BAS.md)
 
 ---
 
-## 8 – Finansiella poster & bokslut
+### 8 – Finansiella poster & bokslut
 - **8012** – Vinst/förlust vid försäljning av andelar: Resultat från aktieförsäljning  
 - **8030** – Räntekostnader: Betald ränta på lån  
 - **8314** – Skattefria ränteintäkter: T.ex. ränta från Skatteverket  
@@ -107,15 +117,5 @@ För att se en lista över samtliga konton, se [BAS](./BAS.md)
 
 ---
 
-## 9 – Interna konton
+### 9 – Interna konton
 - **9000–9999** – Interna projekt/kostnadsställen: För uppföljning inom företaget  
-
----
-
-## 🧠 Snabbregler
-- **0–2 = Balansräkning**  
-- **3–8 = Resultaträkning**  
-- **9 = Interna konton**  
-- Alla verifikationer ska **balansera**  
-- **8910 + 251x används i bokslutet**  
-- **8999 ska vara 0 efter bokslut**
